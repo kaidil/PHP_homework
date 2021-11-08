@@ -2,6 +2,10 @@
 
 Created GET methode to display fruits. Additionally I have added POST methode for inserting "tree" and "fruit" vlaues via procedure that is currently not working properly. I had issues with data model and with creating many to many relational tables between trees, fruits and insects.
 
+For running the program you should have XAMPP with MySQL database, PHP and Apache installed and SQL and Apache running. I used Postman to test the GET and POST methods. 
+For GET method use URL: http://localhost/get.php?fruit_name=Yellow Banana (Yellow Banana is the variable name which you are searching by).
+For POST method use URL: http://localhost/post.php with body parameters tree_name and fruit_name.
+
 Scripts:
 
 CREATE TABLE tree (
